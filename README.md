@@ -38,13 +38,17 @@ Data exchange	JSON (built with basic string formatting)
 External libraries	None
 Frameworks	None (no Spring Boot)
 Project Structure
+## Project Structure
+
+```
 Quizz/
-├── Main.java          # Java server: routing, quiz data, API endpoints
+├── Main.java
 ├── README.md
 └── public/
-    ├── index.html     # Page layout (home, quiz, result, create screens)
-    ├── style.css      # Styling
-    └── script.js      # Frontend logic (runs in the browser)
+    ├── index.html
+    ├── style.css
+    └── script.js
+```
 
 Main.java must sit in the project root, next to the public/ folder. The server looks for public/ relative to the folder you run it from.
 
